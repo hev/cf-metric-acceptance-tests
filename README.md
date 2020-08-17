@@ -10,6 +10,7 @@ the following constraints.
    Where needed test users may need to deploy additional ops-files or deploy services. 
    * Tests use relevant CLI plugins to help make tests easy to recreate.
    * Tests are outcome driven and can be used to cover a variety of components.
+   * Tests should work on as many versions of cf as possible. 
 
 ## Summary of Tests for Developers
 App developers have only a few key metric features included in Cloudfoundry, all of which 
